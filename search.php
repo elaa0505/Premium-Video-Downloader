@@ -231,6 +231,7 @@
          for(var i = 0; i < elements.length; i++){
          elements[i].addEventListener("click", ()=>{
          $('#loadingImage').show();
+            setTimeout(codeAddress, 3000);
          }); 
          }
          
@@ -441,6 +442,7 @@
          for(var i = 0; i < elements.length; i++){
          elements[i].addEventListener("click", ()=>{
          $('#loadingImage').show();
+            setTimeout(codeAddress, 3000);
          }); 
          }
          
