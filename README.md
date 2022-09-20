@@ -4,7 +4,7 @@ Get API Key And Download Videos Or Audios From Almost Any Sites
 # How To Install
 step 1 - Go to download.php file and Add Your API KEY
 
-$api = "YOUR API KEY";    <=== Here (line 4)
+$api = "YOUR API KEY";    <=== Here (line 5)
               
 thats it!
 
