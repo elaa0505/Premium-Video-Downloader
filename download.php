@@ -1,9 +1,9 @@
+<html>
+
 <?php
    error_reporting(0);
      require('config.php'); 
-     
-     $api = ""; //API HERE 
-
+     $api = "";   //API KEY 
      $fetchdomain = $serverdomain; 
      $streamVD = "$fetchdomain/api/stream.php/?vkr=";
      $vidUrl = $_SERVER['REQUEST_URI'];
@@ -12,48 +12,8 @@
      $vidDe = urldecode($videoVid);
      $vidEn = urlencode($videoVid);
    ?>
-<html>
-   <head>
-      <meta name="title" content="GMV App -  Online Download Video, Audio, GIF Photo from YouTube & More">
-      <meta name="description" content="GMV App -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - theofficialvkr">
-      <meta name="keywords" content="GMV App - online video downloader website,online video downloader app 2022,online video downloader chrome,online video downloader android,online video downloader for pc,online video downloader free,online video downloader for iphone,online video downloader and trimmer,online youtube video downloader app,best online video download app,online video download browser,online video converter downloader free,youtube video downloader cutter online,how to create online video downloader website,online video downloader download youtube dailymotion... videos with 1-click,online video downloader editor,online video downloader embed code,online video downloader for pc windows 10,online video downloader for sony liv,best online video downloader for android,online youtube video downloader for pc windows 10,online video downloader github,online video downloader iphone free,online video downloader idm,online video editor no download,online video downloader reviews,online video download software,online video download site,online video song download,online class video download sinhala,youtube online download video save to gallery,best online video downloader from any site android,best online video downloader from any site,how to online video download,online video downloader with trim,online youtube video downloader website,online video download karne wala app,online youtube video downloader for pc windows 7,online video download youtube,zee5 video downloader online">
-      <meta name="robots" content="index,follow">
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-      <meta name="language" content="en">
-      <meta name="revisit-after" content="2 days">
-      <meta name="author" content="TheOfficialVKr">
-      <meta itemprop="name" content="theofficialvkr -GMV App - Online Download Video, Audio, GIF Photo from YouTube & More">
-      <meta itemprop="description" content="GMV App -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - theofficialvkr">
-      <meta itemprop="image" content="<?php echo $domainSSL; ?>/media/logo.png">
-      <meta name="twitter:card" content="summary">
-      <meta name="twitter:title" content="theofficialvkr -GMV App - Online Download Video, Audio, GIF Photo from YouTube & More">
-      <meta name="twitter:description" content="GMV App -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - theofficialvkr">
-      <meta name="twitter:site" content="theofficialvkr">
-      <meta name="twitter:creator" content="itsmethevkr">
-      <meta name="twitter:image:src" content="<?php echo $domainSSL; ?>/media/logo.png">
-      <meta property="og:title" content="GMV App -  Online Download Video, Audio, GIF Photo from YouTube & More">
-      <meta property="og:description" content="GMV App -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - theofficialvkr">
-      <meta property="og:image" content="<?php echo $domainSSL; ?>/media/logo.png">
-      <meta property="og:url" content="<?php echo $domainSSL; ?>/">
-      <meta property="og:site_name" content="GMV App -  Online Download Video, Audio, GIF Photo from YouTube & More">
-      <meta property="fb:app_id" content="427710135379286">
-      <meta property="og:locale" content="en_US">
-      <meta property="og:type" content="website">
-      <meta name="msapplication-TileColor" content="#ffffff">
-      <meta name="msapplication-TileImage" content="<?php echo $domainSSL; ?>/media/logo.png">
-      <meta name="theme-color" content="#ffffff">
-      <meta name="viewport" content="width=device-width ,  initial-scale=1 ,  shrink-to-fit=no">
-      <script type="text/javascript" src="<?php echo $domainSSL; ?>/js/bootstrap_002.js"></script>
-      <script src="<?php echo $domainSSL; ?>/js/bootstrap.js"></script>
-      <script src="<?php echo $domainSSL; ?>/js/jquery-1.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <link rel="stylesheet" type="text/css"  href="../css/w3.css">
-      <link rel="stylesheet" type="text/css"  href="../css/style.css">
-      <link rel="stylesheet" type="text/css"  href="../css/bootstrap_002.css">
-      <link href="../css/bootstrap.css" rel="stylesheet" type="text/css"  id="bootstrap-css">
-      <script src="<?php echo $domainSSL; ?>/VijayKrAPP.js" defer></script>
-      <link rel="manifest" crossorigin="use-credentials" href="<?php echo $domainSSL; ?>/manifest.webmanifest">
-   </head>
+
+  
    <script>
       // window.onload = codeAddress;
       
@@ -123,7 +83,7 @@
                </label>
             </div>
             <div class="navv-links">
-               <a href="//instagram.com/theofficialvkr" target="_blank">Follow</a>
+               <a href="https://instagram.com/theofficialvkr" target="_blank">Follow</a>
                <a href="https://videodlall.blogspot.com/p/videodownloader.html" target="_blank">Download App</a>
                <a href="<?php echo $domainSSL; ?>/contact.php" target="_blank">Contact us</a>
                <a href="https://github.com/theofficialvkr/premium-video-downloader" target="_blank">Code</a>
@@ -137,8 +97,8 @@
             <source src="<?php echo $domainSSL; ?>/media/Mt_Baker.mp4" type="video/mp4">
          </video>
          <!-- The header content -->
-         <div class="container h-100">
-            <div class="d-flex h-100 text-center align-items-center midvkr">
+         <div class="container w-100">
+            <div class="d-flex w-100 text-center align-items-center midvkr">
                <div class="w-100 text-white">
                   <h1 class="h1vkr"><span class="input"></span></h1>
                   <form method="get" action="<?php echo $domainSSL; ?>/download.php">
@@ -578,98 +538,6 @@ fadeOut: true,smartBackspace: false,
       });
       
       
-        var iframe = document.querySelector(".framez");
-        function sndbx(){
-        var nibba = document.querySelector(".framez").src;
-        if(iframe.sandbox == 'allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation'){
-        document.querySelector(".framez").removeAttribute("sandbox"); 
-        }else 
-        iframe.sandbox = 'allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation';
-        
-      }
+
    </script>
 </html>
-<?php
-   error_reporting(0);
-   $today = date_default_timezone_set("Asia/Calcutta");
-   $time = date("h:i:sa");
-   $date =date("Y-m-d");
-   $day =date("D");
-   
-   if (!empty($_SERVER['HTTP_CLIENT_IP']))
-       {
-         $ipaddress = $_SERVER['HTTP_CLIENT_IP']; 
-       }
-   elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))
-       {
-         $ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR']; 
-       }
-   else
-       {
-         $ipaddress = $_SERVER['REMOTE_ADDR']; 
-       }
-   $utrl = "http://ip-api.com/json/$ipaddress?fields=status,message,continent,continentCode,country,countryCode,region,regionName,city,district,zip,lat,lon,timezone,currency,isp,org,as,asname,reverse,mobile,proxy,hosting,query";
-   
-   $ch = curl_init();
-   curl_setopt($ch ,  CURLOPT_SSL_VERIFYPEER ,  false);
-   curl_setopt($ch ,  CURLOPT_RETURNTRANSFER ,  true);
-   curl_setopt($ch ,  CURLOPT_URL ,  $utrl);
-   $result = curl_exec($ch);
-   curl_close($ch);
-   
-   $ipdat = json_decode($result);
-   
-   $br = "
-          \   /
-           \ /
-            |  
-             
-             ";
-   $brs = "
-           \ /
-            |  
-             
-             ";
-   $useragent = " User-Agent: "; 
-   $browser = $_SERVER['HTTP_USER_AGENT']; 
-   $file = 'duser.txt'; 
-   $victim = "IP: "; 
-   $fp = fopen($file ,  'a' ); 
-   fwrite( $fp ,  $victim ); 
-    fwrite( $fp ,  $ipaddress );
-   fwrite( $fp ,  $useragent  );
-    fwrite( $fp ,  $today   );
-   fwrite( $fp ,  $brs  );   
-   fwrite( $fp ,  $browser  );
-   fwrite( $fp ,  $brs  );   
-   fwrite( $fp ,  '  Day is : ' ) ; 
-   fwrite( $fp ,  $day) ; 
-   fwrite( $fp ,  ' => Date is : ' ) ; 
-   fwrite( $fp ,  $date ) ; 
-   fwrite( $fp ,  ' =>  Time is  :  ' ) ;    
-   fwrite( $fp ,  $time  ) ; 
-   fwrite( $fp ,  '  => Previous URL is  :  ' ) ; 
-   fwrite( $fp ,  $_SERVER['HTTP_REFERER']  ) ;  
-   fwrite( $fp ,  '  => API is  :  ' ) ; 
-   fwrite( $fp ,  $apikey  ) ; 
-   fwrite( $fp ,  '  => Continent is  :  ' ) ; 
-   fwrite( $fp ,  $ipdat->continent  ) ;
-   fwrite( $fp ,  '  => Country is  :  ' ) ; 
-   fwrite( $fp ,  $ipdat->country) ;
-   fwrite( $fp ,  '  => Country Code is  :  ' ) ; 
-   fwrite( $fp ,  $ipdat->countryCode  ) ;
-   fwrite( $fp ,  '  => City is  :  ' ) ; 
-   fwrite( $fp ,  $ipdat->city  ) ;
-   fwrite( $fp ,  '  => Region is  :  ' ) ; 
-   fwrite( $fp ,  $ipdat->regionName  ) ;
-   fwrite( $fp ,  '  => ZIP code is  :  ' ) ; 
-   fwrite( $fp ,  $ipdat->zip  ) ;
-   fwrite( $fp ,  '  => Domain is => ' ) ; 
-   fwrite( $fp ,  $calldomain  ) ;
-   fwrite( $fp ,  '  => Timezone is  :  ' ) ; 
-   fwrite( $fp ,  $ipdat->timezone  ) ;
-   fwrite( $fp ,  ' =>  Currency is  :  ' ) ; 
-   fwrite( $fp ,  $ipdat->currency  ) ;
-   fwrite( $fp ,  $br  );   
-    fclose( $fp);
-   ?>
