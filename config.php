@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
 
- $serverdomain = "https://vijayapi.000webhostapp.com"; //Server Domain
+ $serverdomain = "https://vkrapi.000webhostapp.com"; //Server Domain
  $domainSSL = ""; //Your Domain
  $domainNoSSL = ""; //Domain Without SSL
 
