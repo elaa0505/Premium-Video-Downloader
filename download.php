@@ -11,6 +11,7 @@
      $videoVid = $videoVid[1];
      $vidDe = urldecode($videoVid);
      $vidEn = urlencode($videoVid);
+     if(empty($api)){die("<center><h1>Error Please Buy API contactvkr@yahoo.com</h1></center>");}
    ?>
 
   
@@ -234,10 +235,11 @@
                      <a class='avkr' 
                         href='$mp3'>Download MP3 </a>";
                      }
-                  
-                    if(!empty($title)){
+                                   if($matches[1]){
+                        if(!empty($title)){
                            echo "<iframe class='framez' id='framez' src='$serverdomain/api/dliframe.php?vkr=$vidDe' width='100%' height='350px' allowtransparency='true' style='border:none'></iframe>"; }
                     
+                 }
             
                      if(!empty($play)){
                      echo "
@@ -261,6 +263,12 @@
                if(empty($vidDe)){
                $thumb = "$domainSSL/media/logo.png";
                }
+               
+                 if(!$matches[1]){
+                        if(!empty($title)){
+                           echo "<iframe class='framez' id='framez' src='$serverdomain/api/dliframe.php?vkr=$vidDe' width='100%' height='350px' allowtransparency='true' style='border:none'></iframe>"; }
+                    
+                 }
                ?>
       </section>
       <script>     
@@ -502,15 +510,15 @@
         loop:true
       });
         var typedT = new Typed(".webTitle", {
-        strings:["GMV App", "Videos Downloader", "Watch Sports", "And More"],
+        strings:[" GMV App", "Videos Downloader", "Watch Sports", "And More"],
         typeSpeed: 150,
         backSpeed: 60,
 fadeOut: true,smartBackspace: false,
         loop:true
       });
           var typedP = new Typed(".pTitle", {
-        strings:["Welcome to Website of GMV App","here you can", "Download Video From Any Site", "And", "Watch Sports", "And More"],
-        typeSpeed: 150,
+        strings:[" Welcome to Website of GMV App","<?php echo $title ; ?> here you can", "Download Video From Any Site", "And", "Watch Sports", "And More"],
+        typeSpeed: 310,
         backSpeed: 60,
 fadeOut: true,smartBackspace: false,
         loop:true
