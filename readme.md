@@ -5,8 +5,13 @@ Get API Key And Download Videos Or Audios From Almost Any Sites
  Go to config.php file and Add Your API KEY & Domain
 
 $myDomain = "Your Site URL" <===== Your Domain
+
+
 $dlAPI = "YOUR API KEY";    <=== For Download 
+
+
 $searchAPI = "YOUR API KEY";    <=== For Search 
+
               
 thats it!
 
