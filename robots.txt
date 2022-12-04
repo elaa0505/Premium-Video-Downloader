@@ -6,28 +6,10 @@ Allow: /*?lang=
 Allow: /?vkr=%23
 Allow: /download.php?vkr=%23
 Allow: /search.php?vkr=%23
-Allow: /app
-Allow: /contact.php
-Allow: /index.php
-Allow: /home.php
 Allow: /disclaimer.php
-Allow: /thumb
-Allow: /cricket
-Allow: /app/age-calculator
-Allow: /app/bmi
-Allow: /app/dm
-Allow: /app/live-score
-Allow: /app/game/ludo-game
-Allow: /app/music.php
-Allow: /app/game/rps
-Allow: /app/tictactoe
-Allow: /app/tv
-Allow: /cric
 Allow: /*?
 Disallow: /css
-Disallow: /media
-Disallow: /js
-Disallow: /bat
+Disallow: /images
 
 # Yahoo! Search Engine Robot
 # ==========================
@@ -37,28 +19,10 @@ Allow: /*?lang=
 Allow: /?vkr=%23
 Allow: /download.php?vkr=%23
 Allow: /search.php?vkr=%23
-Allow: /app
-Allow: /contact.php
-Allow: /index.php
-Allow: /home.php
 Allow: /disclaimer.php
-Allow: /thumb
-Allow: /cricket
-Allow: /app/age-calculator
-Allow: /app/bmi
-Allow: /app/dm
-Allow: /app/live-score
-Allow: /app/game/ludo-game
-Allow: /app/music.php
-Allow: /app/game/rps
-Allow: /app/tictactoe
-Allow: /app/tv
-Allow: /cric
 Allow: /*?
 Disallow: /css
-Disallow: /media
-Disallow: /js
-Disallow: /bat
+Disallow: /images
 
 
 # Yandex Search Engine Robot
@@ -69,28 +33,10 @@ Allow: /*?lang=
 Allow: /?vkr=%23
 Allow: /download.php?vkr=%23
 Allow: /search.php?vkr=%23
-Allow: /app
-Allow: /contact.php
-Allow: /index.php
-Allow: /home.php
 Allow: /disclaimer.php
-Allow: /thumb
-Allow: /cricket
-Allow: /app/age-calculator
-Allow: /app/bmi
-Allow: /app/dm
-Allow: /app/live-score
-Allow: /app/game/ludo-game
-Allow: /app/music.php
-Allow: /app/game/rps
-Allow: /app/tictactoe
-Allow: /app/tv
-Allow: /cric
 Allow: /*?
 Disallow: /css
-Disallow: /media
-Disallow: /js
-Disallow: /bat
+Disallow: /images
 
 
 # Microsoft Search Engine Robot
@@ -101,28 +47,10 @@ Allow: /*?lang=
 Allow: /?vkr=%23
 Allow: /download.php?vkr=%23
 Allow: /search.php?vkr=%23
-Allow: /app
-Allow: /contact.php
-Allow: /index.php
-Allow: /home.php
 Allow: /disclaimer.php
-Allow: /thumb
-Allow: /cricket
-Allow: /app/age-calculator
-Allow: /app/bmi
-Allow: /app/dm
-Allow: /app/live-score
-Allow: /app/game/ludo-game
-Allow: /app/music.php
-Allow: /app/game/rps
-Allow: /app/tictactoe
-Allow: /app/tv
-Allow: /cric
 Allow: /*?
 Disallow: /css
-Disallow: /media
-Disallow: /js
-Disallow: /bat
+Disallow: /images
 
 
 # Bing Search Engine Robot
@@ -133,29 +61,10 @@ Allow: /*?lang=
 Allow: /?vkr=%23
 Allow: /download.php?vkr=%23
 Allow: /search.php?vkr=%23
-Allow: /app
-Allow: /contact.php
-Allow: /index.php
-Allow: /home.php
 Allow: /disclaimer.php
-Allow: /thumb
-Allow: /cricket
-Allow: /app/age-calculator
-Allow: /app/bmi
-Allow: /app/dm
-Allow: /app/live-score
-Allow: /app/game/ludo-game
-Allow: /app/music.php
-Allow: /app/game/rps
-Allow: /app/tictactoe
-Allow: /app/tv
-Allow: /cric
 Allow: /*?
 Disallow: /css
-Disallow: /media
-Disallow: /js
-Disallow: /bat
-
+Disallow: /images
 
 # Every bot that might possibly read and respect this file
 # ========================================================
@@ -165,33 +74,14 @@ Allow: /*?lang=
 Allow: /?vkr=%23
 Allow: /download.php?vkr=%23
 Allow: /search.php?vkr=%23
-Allow: /app
-Allow: /contact.php
-Allow: /index.php
-Allow: /home.php
 Allow: /disclaimer.php
-Allow: /thumb
-Allow: /cricket
-Allow: /app/age-calculator
-Allow: /app/bmi
-Allow: /app/dm
-Allow: /app/live-score
-Allow: /app/game/ludo-game
-Allow: /app/music.php
-Allow: /app/game/rps
-Allow: /app/tictactoe
-Allow: /app/tv
-Allow: /cric
 Allow: /*?
 Disallow: /css
-Disallow: /media
-Disallow: /js
-Disallow: /bat
-
+Disallow: /images
 
 # WHAT-4882 - Block indexing of links in notification emails. This applies to all bots.
 # =====================================================================================
-Disallow: /bat
+Disallow: /images
 
 # Wait 1 second between successive requests. See ONBOARD-2698 for details.
 Crawl-delay: 1
