@@ -11,14 +11,13 @@ $dlAPI = "YOUR API KEY";    <=== For Download
 
 
 $searchAPI = "YOUR API KEY";    <=== For Search 
-
               
 thats it!
 
 You Have To Buy The API Key 
 
 To Buy Api KEY Contact Me On <a href="https://t.me/theofficialvkr">Telegram</a> | <a href="https://instagram.com/theofficialvkr">Instagram</a> | <a href="https://twitter.com/theofficialvkr">Twitter</a> | <a href="https://facebook.com/theofficialvkr">Facebook</a>
- | Mail  | <a href="mailto:contactvkr@yahoo.com">contactvkr@yahoo.com</a>
+ |  <a href="mailto:contactvkr@yahoo.com">contactvkr@yahoo.com</a>
  
  # Demo 
  <a href="http://theofficialvkr.ml/demo/">DEMO</a>

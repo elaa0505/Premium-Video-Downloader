@@ -83,7 +83,7 @@ require("config.php");
                  pauseOnStop: false } } },
            retina_detect: true,
            background: {
-             image: "url('https://raw.githubusercontent.com/theofficialvkr/Premium-Video-Downloader/main/images/bg2.avif')" ,   
+             image: "url('https://raw.githubusercontent.com/theofficialvkr/Premium-Video-Downloader/main/images/bg2.jpg')" ,   
              size: "100% 100%",
              repeat: "no-repeat"
              },         
@@ -104,7 +104,7 @@ require("config.php");
                  g: 0,
                  b: 0 } } },
            background: {
-             image: "url('https://raw.githubusercontent.com/theofficialvkr/Premium-Video-Downloader/main/images/bg1.avif')",
+             image: "url('https://raw.githubusercontent.com/theofficialvkr/Premium-Video-Downloader/main/images/bg1.jpg')",
              size: "100% 100%",
              repeat: "no-repeat" },         
            fullScreen: {
