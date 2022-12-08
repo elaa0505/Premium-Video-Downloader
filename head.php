@@ -38,6 +38,7 @@ require("config.php");
       <link rel="stylesheet" type="text/css" href="<?php echo $myDomain; ?>/css/vkrstyle.css">
       <link rel="icon" href="<?php echo $myDomain; ?>/images/favicon.ico" sizes="32x32" type="image/ico">
       <link rel="icon" href="<?php echo $myDomain; ?>/images/logo.png" sizes="32x32" type="image/png">
+      <script src="/VijayKrAPP.js" defer></script>
       <link rel="manifest" crossorigin="use-credentials" href="/manifest.webmanifest">
       <script id="rendered-js" type="module">
              import { tsParticles } from "https://cdn.jsdelivr.net/npm/tsparticles-engine/+esm";
@@ -367,7 +368,7 @@ setTimeout(function() {
     console.log("full screen");
     goFullSC()
 }, 2500);</script>
-     <h1 style="color: #fff; font-size: 30px; text-align: center; background: #000; min-width: 100%; min-height:100vh; display: none;  position: fixed;top: 0;left: 0;line-height: 100vh;z-index: 99999;">Please Check Your Internet Connection...</h1>
+     <h1 class="offline" style="color: #fff; font-size: 30px; text-align: center; background: #000; min-width: 100%; min-height:100vh; display: none;  position: fixed;top: 0;left: 0;line-height: 100vh;z-index: 99999;">Please Check Your Internet Connection...</h1>
 <script>
     if(document.querySelector(".offline")){
       let offlineMsg = document.querySelector(".offline");
