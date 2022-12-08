@@ -5,6 +5,7 @@
     "enable_auto_refresh": true,
     "name": "VKrFork",
     "display_override":"fullscreen",
+    "display":"fullscreen",
     "description": "VKrFork - Just Testing My Coding Skill",
     "gcm_sender_id": 1007869709378,
     "gcm_user_visible_only": true,
@@ -27,74 +28,94 @@
   
     {
       "src": "/images/logo.png",
+      "type": "image/png",
       "sizes": "512x512"
     },
     {
       "src": "/images/logo.png",
-      "sizes": "192x192"
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
     },
     {
       "src": "/images/logo.png",
-      "sizes": "144x144"
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "maskable"
     },
     {
       "src": "/images/logo.png",
+      "type": "image/png",
       "sizes": "96x96"
     },
     {
       "src": "/images/logo.png",
+      "type": "image/png",
       "sizes": "72x72"
     },
     {
       "src": "/images/logo-transparent.png",
+      "type": "image/png",
       "sizes": "48x48"
     },
     {
       "src": "/images/logo-transparent.png",
+      "type": "image/png",
       "sizes": "16x16"
     },
     {
       "src": "/images/logo-transparent.png",
+      "type": "image/png",
       "sizes": "20x20"
     },
     {
       "src": "/images/logo-transparent.png",
+      "type": "image/png",
       "sizes": "29x29"
     },
     {
       "src": "/images/logo-transparent.png",
+      "type": "image/png",
       "sizes": "32x32"
     },
     {
       "src": "/images/logo-transparent.png",
+      "type": "image/png",
       "sizes": "40x40"
     },
     {
       "src": "/images/logo-transparent.png",
+      "type":"image/png",
       "sizes": "50x50"
     },
     {
       "src": "/images/logo-transparent.png",
+      "type":"image/png",
       "sizes": "57x57"
     },
     {
       "src": "/images/logo-transparent.png",
+      "type":"image/png",
       "sizes": "58x58"
     },
     {
       "src": "/images/logo-transparent.png",
+      "type":"image/png",
       "sizes": "60x60"
     },
     {
       "src": "/images/logo-transparent.png",
+      "type":"image/png",
       "sizes": "256x256"
     },
     {
       "src": "/images/logo-transparent.png",
+      "type":"image/png",
       "sizes": "512x512"
     },
     {
       "src": "/images/logo-transparent.png",
+      "type":"image/png",
       "sizes": "1024x1024"
     }
   ],

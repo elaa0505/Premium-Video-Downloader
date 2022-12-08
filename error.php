@@ -74,10 +74,10 @@ setInterval(draw, 30);
     if(document.querySelector(".offline")){
       let offlineMsg = document.querySelector(".offline");
       function _showOfflineMessage(){
-         offlineMsg.style ="display:initial";
+         offlineMsg.style.display ="initial";
       }
       function _hideOfflineMessage(){
-         offlineMsg.style ="display:none";
+         offlineMsg.style.display ="none";
       }
       window.addEventListener("offline", _showOfflineMessage, false);
       window.addEventListener("online", _hideOfflineMessage, false);
