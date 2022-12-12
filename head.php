@@ -14,7 +14,7 @@ require("config.php");
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
       <meta name="language" content="en">
       <meta name="revisit-after" content="1 days">
-      <meta name="author" content="theofficialvkr">
+      <meta name="author" content="VKrFork">
       <meta itemprop="name" content="VKrFork - Just Testing My Coding Skill">
       <meta itemprop="description" content="VKrFork - Just Testing My Coding Skill">
       <meta itemprop="image" content="<?php echo $myDomain; ?>/images/logo.png">
@@ -22,7 +22,7 @@ require("config.php");
       <meta name="twitter:title" content="VKrFork - Just Testing My Coding Skill">
       <meta name="twitter:description" content="VKrFork - Just Testing My Coding Skill">
       <meta name="twitter:site" content="VKrFork">
-      <meta name="twitter:creator" content="theofficialvkr">
+      <meta name="twitter:creator" content="VKrFork">
       <meta name="twitter:image:src" content="<?php echo $myDomain; ?>/images/logo.png">
       <meta property="og:title" content="VKrForkJust Testing My Coding Skill">
       <meta property="og:description" content="VKrForkJust Testing My Coding Skill">
@@ -303,19 +303,7 @@ require("config.php");
 <script src="<?php echo $serverDomain; ?>/js/dvtool.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
  <script>
        
-function goFullSC() {
-    var docElmVkrm = document.documentElement;
-    if (docElmVkrm.requestFullscreen) {
-        docElmVkrm.requestFullscreen();
-    } else if (docElmVkrm.msRequestFullscreen) {
-        docElmVkrm.msRequestFullscreen();
-    } else if (docElmVkrm.mozRequestFullScreen) {
-        docElmVkrm.mozRequestFullScreen();
-    } else if (docElmVkrm.webkitRequestFullScreen) {
-        docElmVkrm.webkitRequestFullScreen();
-    }
-    console.log("Site Open in full screen");
-}
+
 if (document) {
     document.addEventListener("click", function() {
         var docElmVkr = document.documentElement;
@@ -331,43 +319,7 @@ if (document) {
         console.log("Site in full screen");
     });
 }
-// let mainFC = document.getElementById("main");
-if (window) {
-    window.addEventListener("mouseover", function() {
-        var docElmVkr = document.documentElement;
-        if (docElmVkr.requestFullscreen) {
-            docElmVkr.requestFullscreen();
-        } else if (docElmVkr.msRequestFullscreen) {
-            docElmVkr.msRequestFullscreen();
-        } else if (docElmVkr.mozRequestFullScreen) {
-            docElmVkr.mozRequestFullScreen();
-        } else if (docElmVkr.webkitRequestFullScreen) {
-            docElmVkr.webkitRequestFullScreen();
-        }
-        console.log("Main in full screen");
-    });
-}
-window.addEventListener("mouseover", function() {
-    var docElmVkr = document.documentElement;
-    if (docElmVkr.requestFullscreen) {
-        docElmVkr.requestFullscreen();
-    } else if (docElmVkr.msRequestFullscreen) {
-        docElmVkr.msRequestFullscreen();
-    } else if (docElmVkr.mozRequestFullScreen) {
-        docElmVkr.mozRequestFullScreen();
-    } else if (docElmVkr.webkitRequestFullScreen) {
-        docElmVkr.webkitRequestFullScreen();
-    }
-    console.log("Site in full screen");
-});
-setTimeout(function() {
-    var elem = document.documentElement;
-    if (elem.requestFullscreen) {
-        elem.requestFullscreen()
-    }
-    console.log("full screen");
-    goFullSC()
-}, 2500);</script>
+</script>
      <h1 class="offline" style="color: #fff; font-size: 30px; text-align: center; background: #000; min-width: 100%; min-height:100vh; display: none;  position: fixed;top: 0;left: 0;line-height: 100vh;z-index: 99999;">Please Check Your Internet Connection...</h1>
 <script>
     if(document.querySelector(".offline")){

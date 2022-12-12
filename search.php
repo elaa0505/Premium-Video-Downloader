@@ -15,7 +15,7 @@
             <ul class="menu-items">
                <li><a href="<?php echo $myDomain; ?>/">Home</a></li>
                <li><a href="#service">Service</a></li>
-               <li><a href="https://twitter.com/theofficialvkr">Contact</a></li>
+               <li><a href="mailto:contactvkr@yahoo.com">Contact</a></li>
             </ul>
             <img onclick="location.href='<?php echo $myDomain; ?>'" src="<?php echo $myDomain; ?>/images/logo-transparent.png" class="logo" alt="VKrFork Logo">
          </div>
@@ -112,7 +112,7 @@
          <ul class="menu">
             <li class="menu__item"><a class="menu__link" href="<?php echo $myDomain; ?>/">Home</a></li>
             <li class="menu__item"><a class="menu__link" href="#service">Service</a></li>
-            <li class="menu__item"><a class="menu__link" href="https://twitter.com/theofficialvkr">Contact us</a></li>
+            <li class="menu__item"><a class="menu__link" href="mailto:contactvkr@yahoo.com">Contact us</a></li>
          </ul>
          <p style="oppacity: 0.75;">Made with <span style="color: red;">🤍</span> by Vijay Kumar</p>
       </footer>

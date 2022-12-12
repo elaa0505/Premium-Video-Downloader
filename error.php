@@ -17,7 +17,7 @@ body {
     const canvas = document.getElementById('Matrix');
 const context = canvas.getContext('2d');
 
-const katakana = 'theofficialvkr';
+const katakana = 'VKrFork';
 const latin = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const nums = '0123456789';
 
