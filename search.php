@@ -85,14 +85,13 @@
                      if(empty($title || $search)){
                      echo "$error";
                      }elseif(!empty($error)){
-                    
                     die($error);
                }else echo '
               <h3>'.$error.'</h3>';
               }
-                     else echo '
-               <h3>Error</h3>';   
-                     }
+               else{ echo '
+               <h3>Error '.$error.'</h3>';   
+                    } }
                if(empty($vidDe)){
                $thumb = "$myDomain/images/logo.png";
                }
