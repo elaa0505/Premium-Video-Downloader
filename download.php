@@ -59,7 +59,6 @@
             }
             if(!empty($vidDe)){
               json_encode($jsonData = callAPI($fetchUrl,$api,$myDomain));
-      
                      //collecting basic data 
                      $title = $jsonData->data->title;
                      $description = $jsonData->data->description;
@@ -80,9 +79,11 @@
                     $ttthumb = $ttthumb[1];
                         if(!empty ($ttthumb)){
                      $thumb = urldecode($ttthumb);
-                     } elseif(!empty ($tthumb)){
+                     } 
+                     elseif(!empty ($tthumb)){
                      $thumb = urldecode($tthumb);
-                     }  else $thumb = "$myDomain/images/logo.png";
+                     }  
+                     else {$thumb = "$myDomain/images/logo.png";}
                      echo " <title>VKrFork : Download - $title $vidDe  - Just Testing My Coding Skill</title>
                      ";
                      if(empty($title)){
@@ -103,7 +104,7 @@
                      } 
                      if(!empty($source) || !empty($title)){
                      echo"
-                        <video style='background:red;' class='videovkr' poster='$streamVD$thumb'  controls>
+                        <video style='background:transparent;' class='videovkr' poster='$streamVD$thumb'  controls>
                            <source src='$serverDomain/server/api/playVideo/?vkr=$vidDe' type='video/mp4'>
                            <source src='$DL[2]' type='video/mp4'>
                            <source src='$DL[1]' type='video/mp4'>
@@ -115,7 +116,8 @@
                         </video>
                              <h3> ".urldecode($title)."</h3>  
                         ";
-                     }else echo "";
+                     }
+                     else {echo "";}
                      //Default Download Link
                      if(!empty($hd)){
                      echo "
@@ -161,7 +163,8 @@
                      <a class='dlFormat red' 
                         href='$streamYT$DL[$a]'>Download $EXT[$a] - $FRMT[$a] - $PROTO[$a]</a>";
                      }}  
-                     }else echo "<h2 class='centervkr'>Please Enter URL </h3>";
+             }
+                     else echo "<h2 class='centervkr'>Please Enter URL </h3>";
                if(empty($vidDe)){
                $thumb = "$myDomain/images/logo.png";
                }
@@ -191,7 +194,7 @@
             <li class="menu__item"><a class="menu__link" href="#service">Service</a></li>
             <li class="menu__item"><a class="menu__link" href="https://instagram.com/theofficialvkr">Contact us</a></li>
          </ul>
-         <p style="oppacity: 0.75;">Made with <span style="color: red;">🤍</span> by Vijay Kumar</p>
+         <p style="oppacity: 0.75;">Made with <span style="color: red;">❤️</span> by Vijay Kumar</p>
       </footer>
    </body>
 </html>
