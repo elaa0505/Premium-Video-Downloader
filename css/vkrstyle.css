@@ -694,6 +694,7 @@ box-shadow: 3px 3px 15px blue;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color:red;
 }
 #dlContent video{
   width: 95vw;
