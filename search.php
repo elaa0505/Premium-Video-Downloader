@@ -42,6 +42,7 @@
             curl_setopt($curl, CURLOPT_POST, 1); 
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($curl, CURLOPT_POSTFIELDS, 1);
+            curl_setopt($curl, CURLOPT_FOLLOWLOCATION, TRUE);
             curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
             curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
             curl_setopt($curl, CURLOPT_HTTPHEADER, 
