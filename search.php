@@ -51,8 +51,8 @@
             curl_close($curl);
               return $resp;
             }
-            if(empty($api)){
-               die();
+             if(empty($api)){
+               die("Please Enter API Key");
             }
              if(!empty($vidDe)){
                   json_encode($jsonData = callAPI($fetchUrl,$api,$myDomain));
