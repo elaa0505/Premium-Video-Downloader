@@ -54,12 +54,12 @@
             curl_close($curl);
               return $resp;
             }
-            if(empty($api)){
-               die();
-            }
+    
             if(!empty($vidDe)){
               json_encode($jsonData = callAPI($fetchUrl,$api,$myDomain));
-      
+             if(empty($api)){
+               die("Please Enter API Key");
+            }
                      //collecting basic data 
                      $title = $jsonData->data->title;
                      $description = $jsonData->data->description;
